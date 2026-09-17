@@ -67,7 +67,7 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
             "http://localhost:5173",
-            "http://localhost:3001","http://PLACEHOLDER.vercel.app"
+            "http://localhost:3001","https://scms-be-production-6169.up.railway.app"
         ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
